@@ -15,7 +15,7 @@ RUN apt-get update && \
     apt-get update
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
-RUN apt-get update --fix-missing && apt-get install -y gcc libgl1-mesa-dev libgeos-dev libgtk2.0-0 wget bzip2 ca-certificates \
+RUN apt-get update --fix-missing && apt-get install -y gcc libgl1-mesa-dev libgeos-dev libGLU libgtk2.0-0 wget bzip2 ca-certificates \
     libglib2.0-0 libxext6 libsm6 libxrender1 vim \
     git mercurial subversion
 
